@@ -1,8 +1,10 @@
 #include<iostream>
 using namespace std;
 int main(){
- int n=5;
- for(int i =0; i<5; i ++){
+ int n,i,j;
+ cout<<"enter the size of the pattern"<<endl;
+ cin>>n;
+ for(int i =0; i<n; i ++){
     for (int j=0; j < (i+1) ; j++){
         cout << "*";
     }
@@ -10,4 +12,3 @@ int main(){
     }
   return 0;
  }
-
